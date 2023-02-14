@@ -12,6 +12,7 @@
   "author": "Craig Olson<craig.olson804@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.5.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
