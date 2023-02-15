@@ -3,9 +3,14 @@ import {
   Container,
   Heading,
   Image,
+  Button,
   useColorModeValue
 } from '@chakra-ui/react'
 import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import NextLink from 'next/link'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
   return (
@@ -48,7 +53,48 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <p>Paragraph</p>
+        <Paragraph>
+          Craig is a full stack developer with a passion for making things,
+          whether that be digital services, music, or art. In his free time, he
+          can be found hanging out with his guitar and synthesizers. Currently
+          he has a project called{' '}
+          <NextLink href="/works/inkdrop">Bicycle Thieves</NextLink>
+        </Paragraph>
+        <Box align="center" my={4}>
+          <NextLink href="/works">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My portfolio
+            </Button>
+          </NextLink>
+        </Box>
+      </Section>
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>1993</BioYear>
+          Born in Evanston, IL
+        </BioSection>
+        <BioSection>
+          <BioYear>2015</BioYear>
+          Completed a Bachelor of Arts in Computer Science at Northwestern
+          University
+        </BioSection>
+      </Section>
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I love
+        </Heading>
+        <Paragraph>
+          Music, Cooking, Photography, Guitar, Piano, Drums, Synthesizers
+        </Paragraph>
+      </Section>
+      <Section delay={0.4}>
+        <Heading as="h3" variant="section-title">
+          Things I'm Learning
+        </Heading>
+        <Paragraph>How to bullet point my bio page</Paragraph>
       </Section>
     </Container>
   )
