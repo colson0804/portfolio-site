@@ -2,8 +2,13 @@ import {
   Box,
   Container,
   Heading,
+  Icon,
   Image,
   Button,
+  Link,
+  List,
+  ListItem,
+  SimpleGrid,
   useColorModeValue
 } from '@chakra-ui/react'
 import Section from '../components/section'
@@ -12,6 +17,8 @@ import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
+import { GridItem } from '../components/grid-item'
+import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -24,7 +31,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I&apos;m a full-stack developer based in Seattle!
+          Hello, I&apos;m a mobile and web developer based in Seattle!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -46,7 +53,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/craig.jpg"
+              src={'/images/craig.jpeg'}
               alt="Profile Image"
             />
           </Box>
@@ -97,6 +104,35 @@ const Page = () => {
             Things I'm Learning
           </Heading>
           <Paragraph>How to bullet point my bio page</Paragraph>
+        </Section>
+        <Section delay={0.5}>
+          <Heading as="h3" vairant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://www.github.com" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @colson0804
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.instagram.com" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoInstagram} />}
+                >
+                  @colson0804
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>
