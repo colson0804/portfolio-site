@@ -8,7 +8,6 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
   useColorModeValue
 } from '@chakra-ui/react'
 import Section from '../components/section'
@@ -17,7 +16,6 @@ import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
@@ -111,7 +109,7 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://www.github.com" target="_blank">
+              <Link href="https://github.com/colson0804" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
@@ -122,7 +120,10 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.instagram.com" target="_blank">
+              <Link
+                href="https://www.instagram.com/thereallyrealcraig/"
+                target="_blank"
+              >
                 <Button
                   variant="ghost"
                   colorScheme="teal"
