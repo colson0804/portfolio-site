@@ -5,6 +5,7 @@ import {
   Box,
   Link,
   Stack,
+  HStack,
   Heading,
   Flex,
   Menu,
@@ -76,7 +77,7 @@ const Navbar = props => {
             Posts
           </LinkItem>
         </Stack>
-        <Box flex={1} align="right">
+        <HStack flex={1} align="right" justify="right" alignItems="center">
           <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block' }}>
             <Menu isLazy>
@@ -102,7 +103,7 @@ const Navbar = props => {
               </MenuList>
             </Menu>
           </Box>
-        </Box>
+        </HStack>
       </Container>
     </Box>
   )
