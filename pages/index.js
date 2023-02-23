@@ -8,7 +8,8 @@ import {
   Link,
   List,
   ListItem,
-  useColorModeValue
+  useColorModeValue,
+  UnorderedList
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -29,14 +30,14 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I&apos;m a mobile and web developer based in Seattle!
+          Hello, I&apos;m a mobile and web engineer based in Seattle!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Craig Olson
             </Heading>
-            <p>Digital Craftsman ( Developer / Musician / Producer )</p>
+            <p>Digital Creator ( Developer / Musician / Artist )</p>
           </Box>
           <Box
             flexShrink={0}
@@ -61,32 +62,51 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Craig is a full stack developer with a passion for making things,
-            whether that be digital services, music, or art. In his free time,
-            he can be found hanging out with his guitar and synthesizers.
-            Currently he has a project called{' '}
-            <NextLink href="/works/inkdrop">Bicycle Thieves</NextLink>
+            Craig is a mobile and web engineer with a passion for making things,
+            whether that be digital services, music, or art.
           </Paragraph>
-          <Box align="center" my={4}>
+          <Paragraph>
+            In his free time, he can be found spending time with his guitar and
+            synthesizers, cooking delicious meals, and playing with his cat.
+          </Paragraph>
+          {/* <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My portfolio
               </Button>
             </NextLink>
-          </Box>
+          </Box> */}
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
           <BioSection>
-            <BioYear>1993</BioYear>
-            Born in Evanston, IL
+            <BioYear>2014</BioYear>
+            Interned at Shmoop as a Javascript and PHP developer
           </BioSection>
           <BioSection>
             <BioYear>2015</BioYear>
             Completed a Bachelor of Arts in Computer Science at Northwestern
             University
+          </BioSection>
+          <BioSection>
+            <BioYear>2015 - 2018</BioYear>
+            Worked at Solstice as a mobile and web engineer
+          </BioSection>
+          <BioSection>
+            <BioYear>2018 - 2019</BioYear>
+            Worked at Fooda as an iOS engineer
+          </BioSection>
+          <BioSection>
+            <BioYear>2020 - 2021</BioYear>
+            Worked on the driver platform team at Lyft as an iOS engineer
+          </BioSection>
+          <BioSection>
+            <BioYear>2021 - 2023</BioYear>
+            Planned sabbatical, including volunteering with KEXP and the Vera
+            Project in Seattle, producing/writing music, and making web sites
+            and video games
           </BioSection>
         </Section>
         <Section delay={0.3}>
@@ -99,9 +119,15 @@ const Page = () => {
         </Section>
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
-            Things I'm Learning
+            Things I'm Learning in 2023
           </Heading>
-          <Paragraph>How to bullet point my bio page</Paragraph>
+          <UnorderedList>
+            <ListItem>Unity/C#</ListItem>
+            <ListItem>React/NextJS</ListItem>
+            <ListItem>Blender/Photoshop</ListItem>
+            <ListItem>Drums</ListItem>
+            <ListItem>Mixing/Mastering with Ableton </ListItem>
+          </UnorderedList>
         </Section>
         <Section delay={0.5}>
           <Heading as="h3" vairant="section-title">
