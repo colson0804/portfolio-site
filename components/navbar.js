@@ -68,7 +68,7 @@ const Navbar = props => {
             <NavbarTitle />
           </Heading>
         </Flex>
-        <Stack
+        {/* <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
@@ -82,7 +82,7 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-        </Stack>
+        </Stack> */}
         <HStack flex={1} align="right" justify="right" alignItems="center">
           <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block' }}>
@@ -97,12 +97,12 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   About
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
+                {/* <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/posts">
                   Posts
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem
                   as={Link}
                   href="https://github.com/colson0804/portfolio-site"

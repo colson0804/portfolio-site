@@ -37,7 +37,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Craig Olson
             </Heading>
-            <p>Digital Creator ( Developer / Musician / Artist )</p>
+            <p>Software Engineer and Digital Creator</p>
           </Box>
           <Box
             flexShrink={0}
@@ -63,7 +63,12 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Craig is a mobile and web engineer with a passion for making things,
-            whether that be digital services, music, or art.
+            whether that be digital services, music, or art. He has professional
+            experience building iOS applications for companies ranging from
+            small startups to Fortune 500 companies. Most recently he was a
+            member of the driver platform team at Lyft, which focused on
+            building a unified architecture and focused experience for Lyft
+            drivers.
           </Paragraph>
           <Paragraph>
             In his free time, he can be found spending time with his guitar and
@@ -103,7 +108,7 @@ const Page = () => {
             Worked on the driver platform team at Lyft as an iOS engineer
           </BioSection>
           <BioSection>
-            <BioYear>2021 - 2023</BioYear>
+            <BioYear>2021 - present</BioYear>
             Planned sabbatical, including volunteering with KEXP and the Vera
             Project in Seattle, producing/writing music, and making web sites
             and video games
