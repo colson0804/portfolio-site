@@ -4,7 +4,6 @@ import {
   Container,
   Box,
   Link,
-  Stack,
   HStack,
   Heading,
   Flex,
@@ -19,32 +18,31 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button.js'
 import { forwardRef } from 'react'
 
-const LinkItem = ({ href, path, target, children, ...props }) => {
-  const active = path === href
-  const activeColor = useColorModeValue('#202023', 'whiteAlpha.900')
-  const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
-  return (
-    <Link
-      as={NextLink}
-      href={href}
-      scroll={false}
-      p={2}
-      bg={active ? 'grassTeal' : undefined}
-      color={active ? activeColor : inactiveColor}
-      target={target}
-      {...props}
-    >
-      {children}
-    </Link>
-  )
-}
+// const LinkItem = ({ href, path, target, children, ...props }) => {
+//   const active = path === href
+//   const activeColor = useColorModeValue('#202023', 'whiteAlpha.900')
+//   const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
+//   return (
+//     <Link
+//       as={NextLink}
+//       href={href}
+//       scroll={false}
+//       p={2}
+//       bg={active ? 'grassTeal' : undefined}
+//       color={active ? activeColor : inactiveColor}
+//       target={target}
+//       {...props}
+//     >
+//       {children}
+//     </Link>
+//   )
+// }
 
 const MenuLink = forwardRef((props, ref) => {
   return <Link ref={ref} as={NextLink} {...props} />
 })
 
 const Navbar = props => {
-  const { path } = props
   return (
     <Box
       position="fixed"

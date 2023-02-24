@@ -13,8 +13,6 @@ import {
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import NextLink from 'next/link'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
@@ -124,7 +122,7 @@ const Page = () => {
         </Section>
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
-            Things I'm Learning in 2023
+            Things I&apos;m Learning in 2023
           </Heading>
           <UnorderedList>
             <ListItem>Unity/C#</ListItem>
