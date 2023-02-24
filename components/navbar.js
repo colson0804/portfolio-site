@@ -38,7 +38,7 @@ import { forwardRef } from 'react'
 //   )
 // }
 
-const MenuLink = forwardRef((props, ref) => {
+const MenuLink = forwardRef(function ForwardLink(props, ref) {
   return <Link ref={ref} as={NextLink} {...props} />
 })
 
