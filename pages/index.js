@@ -132,9 +132,11 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020 - 2021</BioYear>
-            iOS Engineer at <Link href="https://www.lyft.com/" target="_blank">
+            iOS Engineer at{' '}
+            <Link href="https://www.lyft.com/" target="_blank">
               Lyft
-            </Link> on Driver Platform
+            </Link>{' '}
+            on Driver Platform
           </BioSection>
           <BioSection>
             <BioYear>2021 - present</BioYear>
@@ -148,8 +150,9 @@ const Page = () => {
             Things I&apos;m Learning in 2023
           </Heading>
           <UnorderedList>
-            <ListItem>Game Development in Unity/C#</ListItem>
+            <ListItem>SwiftUI and AVFoundation</ListItem>
             <ListItem>Frontend Development in React/NextJS</ListItem>
+            <ListItem>Game Development in Unity/C#</ListItem>
             <ListItem>Digital Art in Photoshop and Blender</ListItem>
             <ListItem>Mixing/Mastering with Ableton Live</ListItem>
             <ListItem>
@@ -157,7 +160,7 @@ const Page = () => {
             </ListItem>
           </UnorderedList>
         </Section>
-        <Section delay={0.5}>
+        <Section delay={0.4}>
           <Heading as="h3" vairant="section-title">
             On the web
           </Heading>
