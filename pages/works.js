@@ -1,5 +1,3 @@
-import { Container, Heading } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
 import ComingSoon from '../pages/coming-soon'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
