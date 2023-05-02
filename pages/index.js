@@ -28,7 +28,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I&apos;m a mobile and web engineer based in Seattle!
+          Hello, I&apos;m a software engineer based in Seattle!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -60,17 +60,37 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Craig is a mobile and web engineer with a passion for making things,
-            whether that be digital services, music, or art. He has professional
-            experience building iOS applications for companies ranging from
-            small startups to Fortune 500 companies. Most recently he was a
-            member of the driver platform team at Lyft, which focused on
-            building a unified architecture and focused experience for Lyft
-            drivers.
+            Craig is an accomplished mobile and web engineer with a passion for
+            making state of the art applications. He has considerable experience
+            developing iOS applications for a wide range of companies, from
+            small startups to Fortune 500 giants.
           </Paragraph>
           <Paragraph>
-            In his free time, he can be found spending time with his guitar and
-            synthesizers, cooking delicious meals, and playing with his cat.
+            Most recently he was with the driver platform team at Lyft, where he
+            contributed to the development of a unified architecture and focused
+            experience for Lyft drivers.
+          </Paragraph>
+          <Paragraph>
+            In addition to being a software engineer, Craig also writes music in
+            styles ranging from indie rock to ambient-electronic. He's played
+            piano and guitar for many years and currently plays in a couple of
+            Seattle jazz combos. This year he's been learning to play the drums.
+          </Paragraph>
+          <Paragraph>
+            Following his role at Lyft, Craig took time off to focus on personal
+            growth, creative pursuits, and community engagement. In this time he
+            explored many different disciplines including writing, digital art,
+            game design, and music production/composition. He's done
+            volunteering with organizations such as the Vera Project and KEXP
+            and has taken a number of songwriting classes with some of his
+            favorite artists including Robin Pecknold of Fleet Foxes and Phil
+            Elverum of The Microphones.
+          </Paragraph>
+          <Paragraph>
+            In his next project, Craig is hoping to bring his creative energies
+            and technical expertise to develop groundbreaking applications. He's
+            most excited to work with companies that are furthering social good
+            or that are enabling collaboration and creativity among their users.
           </Paragraph>
           {/* <Box align="center" my={4}>
             <NextLink href="/works">
@@ -86,24 +106,35 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2014</BioYear>
-            Interned at Shmoop as a Javascript and PHP developer
+            Javascript/PHP Intern at{' '}
+            <Link href="https://www.shmoop.com/" target="_blank">
+              Shmoop
+            </Link>
           </BioSection>
           <BioSection>
             <BioYear>2015</BioYear>
-            Completed a Bachelor of Arts in Computer Science at Northwestern
-            University
+            Bachelor of Arts in Computer Science at Northwestern University
           </BioSection>
           <BioSection>
             <BioYear>2015 - 2018</BioYear>
-            Worked at Solstice as a mobile and web engineer
+            Mobile and Web Engineer at Solstice (now{' '}
+            <Link href="https://www.kinandcarta.com/en-us/" target="_blank">
+              Kin Carta
+            </Link>
+            )
           </BioSection>
           <BioSection>
             <BioYear>2018 - 2019</BioYear>
-            Worked at Fooda as an iOS engineer
+            iOS Engineer at{' '}
+            <Link href="https://www.fooda.com/" target="_blank">
+              Fooda
+            </Link>
           </BioSection>
           <BioSection>
             <BioYear>2020 - 2021</BioYear>
-            Worked on the driver platform team at Lyft as an iOS engineer
+            iOS Engineer at <Link href="https://www.lyft.com/" target="_blank">
+              Lyft
+            </Link> on Driver Platform
           </BioSection>
           <BioSection>
             <BioYear>2021 - present</BioYear>
@@ -114,22 +145,16 @@ const Page = () => {
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I love
-          </Heading>
-          <Paragraph>
-            Music, Cooking, Photography, Guitar, Piano, Drums, Synthesizers
-          </Paragraph>
-        </Section>
-        <Section delay={0.4}>
-          <Heading as="h3" variant="section-title">
             Things I&apos;m Learning in 2023
           </Heading>
           <UnorderedList>
-            <ListItem>Unity/C#</ListItem>
-            <ListItem>React/NextJS</ListItem>
-            <ListItem>Blender/Photoshop</ListItem>
-            <ListItem>Drums</ListItem>
-            <ListItem>Mixing/Mastering with Ableton </ListItem>
+            <ListItem>Game Development in Unity/C#</ListItem>
+            <ListItem>Frontend Development in React/NextJS</ListItem>
+            <ListItem>Digital Art in Photoshop and Blender</ListItem>
+            <ListItem>Mixing/Mastering with Ableton Live</ListItem>
+            <ListItem>
+              Developing Audio Plugins (VSTs) using JUCE and C++
+            </ListItem>
           </UnorderedList>
         </Section>
         <Section delay={0.5}>
