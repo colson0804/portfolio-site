@@ -13,7 +13,7 @@ function ComingSoon() {
     <Container>
       <Heading as="h1">Coming Soon!</Heading>
       <Text>
-        This page is currently under development. Come back soon for updates!
+        This page is currently under development. Come back soon for updates.
       </Text>
       <Divider my={6} />
       <Box my={6} align="center">
