@@ -80,9 +80,9 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Blog
           </LinkItem>
-          <LinkItem href="/works" path={path}>
+          {/* <LinkItem href="/works" path={path}>
             Works
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
         <HStack flex={1} align="right" justify="right" alignItems="center">
           <ThemeToggleButton />
@@ -101,9 +101,9 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/posts">
                   Blog
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
+                {/* <MenuItem as={MenuLink} href="/works">
                   Works
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem
                   as={Link}
                   href="https://github.com/colson0804/portfolio-site"
