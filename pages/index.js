@@ -13,7 +13,7 @@ import {
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+import { SubSection, SubSectionHeader } from '../components/subsection'
 import Layout from '../components/layouts/article'
 import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
@@ -106,48 +106,64 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
-          <BioSection>
-            <BioYear>2014</BioYear>
+          <SubSection>
+            <SubSectionHeader>2014</SubSectionHeader>
             Javascript/PHP Intern at{' '}
             <Link href="https://www.shmoop.com/" target="_blank">
               Shmoop
             </Link>
-          </BioSection>
-          <BioSection>
-            <BioYear>2015</BioYear>
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>2015</SubSectionHeader>
             Bachelor of Arts in Computer Science at Northwestern University
-          </BioSection>
-          <BioSection>
-            <BioYear>2015 - 2018</BioYear>
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>2015 - 2018</SubSectionHeader>
             Mobile and Web Engineer at Solstice (now{' '}
             <Link href="https://www.kinandcarta.com/en-us/" target="_blank">
               Kin Carta
             </Link>
             )
-          </BioSection>
-          <BioSection>
-            <BioYear>2018 - 2019</BioYear>
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>2018 - 2019</SubSectionHeader>
             iOS Engineer at{' '}
             <Link href="https://www.fooda.com/" target="_blank">
               Fooda
             </Link>
-          </BioSection>
-          <BioSection>
-            <BioYear>2020 - 2021</BioYear>
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>2020 - 2021</SubSectionHeader>
             iOS Engineer at{' '}
             <Link href="https://www.lyft.com/" target="_blank">
               Lyft
             </Link>{' '}
             on Driver Platform
-          </BioSection>
-          <BioSection>
-            <BioYear>2021 - present</BioYear>
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>2021 - present</SubSectionHeader>
             Planned sabbatical, including volunteering with KEXP and the Vera
             Project in Seattle, producing/writing music, and making web sites
             and video games
-          </BioSection>
+          </SubSection>
         </Section>
         <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Creative Tools
+          </Heading>
+          <SubSection>
+            <SubSectionHeader>Design:</SubSectionHeader> Photoshop, Blender,
+            Figma
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>Audio Production:</SubSectionHeader> Ableton Live,
+            Logic Pro
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>Video Editing:</SubSectionHeader> Final Cut Pro
+          </SubSection>
+        </Section>
+        <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             Things I&apos;m Learning in 2023
           </Heading>
@@ -162,7 +178,7 @@ const Page = () => {
             </ListItem>
           </UnorderedList>
         </Section>
-        <Section delay={0.4}>
+        <Section delay={0.5}>
           <Heading as="h3" vairant="section-title">
             On the web
           </Heading>
