@@ -12,6 +12,7 @@ import {
   MenuList,
   MenuButton,
   IconButton,
+  Stack,
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
@@ -43,6 +44,8 @@ const MenuLink = forwardRef(function ForwardLink(props, ref) {
 })
 
 const Navbar = props => {
+  // const { path } = props
+
   return (
     <Box
       position="fixed"
@@ -66,7 +69,7 @@ const Navbar = props => {
             <NavbarTitle />
           </Heading>
         </Flex>
-        {/* <Stack
+        <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
@@ -74,13 +77,13 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          {/* <LinkItem href="/posts" path={path}>
+            Blog
+          </LinkItem> */}
+          {/* <LinkItem href="/works" path={path}>
             Works
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
-        </Stack> */}
+          </LinkItem> */}
+        </Stack>
         <HStack flex={1} align="right" justify="right" alignItems="center">
           <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block' }}>
@@ -95,11 +98,11 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   About
                 </MenuItem>
+                {/* <MenuItem as={MenuLink} href="/posts">
+                  Blog
+                </MenuItem> */}
                 {/* <MenuItem as={MenuLink} href="/works">
                   Works
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
                 </MenuItem> */}
                 <MenuItem
                   as={Link}
