@@ -2,8 +2,8 @@ import { Box } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
 export const SubSection = styled(Box)`
-  padding-left: 3.4em;
-  text-indent: -3.4em;
+  padding-left: 1.7em;
+  text-indent: -1.7em;
 `
 
 export const SubSectionHeader = styled.span`

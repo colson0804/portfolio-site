@@ -63,19 +63,19 @@ const Page = () => {
             Craig is an accomplished mobile and web engineer with a passion for
             making state of the art applications. He has considerable experience
             developing iOS applications for a wide range of companies, from
-            small startups to Fortune 500 giants.
+            small startups to Fortune 500 giants. While his professional
+            experience is in developing mobile applications, Craig likes to
+            tinker with other languages and frameworks, bringing what he learns
+            back to iOS.
           </Paragraph>
           <Paragraph>
             Most recently he was with the driver platform team at Lyft, where he
             contributed to the development of a unified architecture and focused
-            experience for Lyft drivers.
-          </Paragraph>
-          <Paragraph>
-            In addition to being a software engineer, Craig also writes music in
-            styles ranging from indie rock to ambient-electronic. He&apos;s
-            played piano and guitar for many years and currently plays in a
-            couple of Seattle jazz combos. This year he&apos;s been learning to
-            play the drums.
+            experience for Lyft drivers. Some of his project work involves
+            improving mobile performance by decreasing app launch TTI and an
+            redesign of the driver experience. Prior to Lyft, he worked with
+            Chicago-based company Fooda on their iOS applications and with
+            Solstice where he consulted for a Fortune 500 banking application.
           </Paragraph>
           <Paragraph>
             Following his role at Lyft, Craig took time off to focus on personal
@@ -83,9 +83,16 @@ const Page = () => {
             explored many different disciplines including writing, digital art,
             game design, and music production/composition. He&apos;s done
             volunteering with organizations such as the Vera Project and KEXP
-            and has taken a number of songwriting classes with some of his
+            and has taken a number of songwriting workshops with some of his
             favorite artists including Robin Pecknold of Fleet Foxes and Phil
             Elverum of The Microphones.
+          </Paragraph>
+          <Paragraph>
+            In addition to being a software engineer, Craig writes music in
+            styles ranging from indie rock to ambient-electronic. He&apos;s
+            played piano and guitar for many years and currently plays in a
+            couple of Seattle jazz combos. This year he&apos;s been learning to
+            play the drums and performing at jam sessions and open mics.
           </Paragraph>
           <Paragraph>
             In his next project, Craig is hoping to bring his creative energies
@@ -140,27 +147,34 @@ const Page = () => {
             </Link>{' '}
             on Driver Platform
           </SubSection>
-          <SubSection>
-            <SubSectionHeader>2021 - present</SubSectionHeader>
-            Planned sabbatical, including volunteering with KEXP and the Vera
-            Project in Seattle, producing/writing music, and making web sites
-            and video games
-          </SubSection>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Creative Tools
+            Technical Skills
           </Heading>
           <SubSection>
-            <SubSectionHeader>Design:</SubSectionHeader> Photoshop, Blender,
+            <SubSectionHeader>Languages:</SubSectionHeader>Swift, Javascript,
+            Python, Objective C, C/C++, C#, Java, SQL, HTML/CSS
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>iOS Frameworks:</SubSectionHeader>UIKit, SwiftUI,
+            Cocoa Touch, Core Graphics, Core Location, MapKit, RxSwift
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>Web Frameworks:</SubSectionHeader>React, Next.js,
+            Node.js/Express, Ruby on Rails
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>Design:</SubSectionHeader>Photoshop, Blender,
             Figma
           </SubSection>
           <SubSection>
-            <SubSectionHeader>Audio Production:</SubSectionHeader> Ableton Live,
+            <SubSectionHeader>Audio Production:</SubSectionHeader>Ableton Live,
             Logic Pro
           </SubSection>
           <SubSection>
-            <SubSectionHeader>Video Editing:</SubSectionHeader> Final Cut Pro
+            <SubSectionHeader>Video Editing:</SubSectionHeader>Final Cut Pro,
+            iMovie
           </SubSection>
         </Section>
         <Section delay={0.4}>
