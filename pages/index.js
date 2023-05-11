@@ -92,14 +92,14 @@ const Page = () => {
             styles ranging from indie rock to ambient-electronic. He&apos;s
             played piano and guitar for many years and currently plays in a
             couple of Seattle jazz combos. This year he&apos;s been learning to
-            play the drums and performing at jam sessions and open mics.
+            play the drums and performing at jam sessions and open mic nights.
           </Paragraph>
           <Paragraph>
-            In his next project, Craig is hoping to bring his creative energies
-            and technical expertise to develop groundbreaking applications.
-            He&apos;s most excited to work with companies that are furthering
-            social good or that are enabling collaboration and creativity among
-            their users.
+            Looking ahead, Craig aspires to channel his creative energy and
+            technical expertise into developing groundbreaking applications. He
+            is particularly enthusiastic about collaborating with companies that
+            prioritize social impact or foster user collaboration and
+            creativity.
           </Paragraph>
           {/* <Box align="center" my={4}>
             <NextLink href="/works">
