@@ -1,24 +1,24 @@
-import ComingSoon from '../pages/coming-soon'
+import { Box, Container, Heading } from '@chakra-ui/react'
+import Layout from '../components/layouts/article'
+import Post from '../components/post'
 
 const Posts = () => {
+  var posts = Array.from({ length: 20 }, (x, i) => i)
   return (
-    <ComingSoon />
-    // <Layout title="Posts">
-    //   <Container>
-    //     <Heading as="h3" fontSize={20} mb={4}>
-    //       Popular Posts
-    //     </Heading>
-    //     {/* <Section delay={0.1}>
-    //       <SimpleGrid colums={[1, 2, 2]} gap={6}>
-    //         <GridItem
-    //           title="My Fish workflow"
-    //           //   thumbnail={thumbFishWorkflow}
-    //           href="www.youtube.com"
-    //         ></GridItem>
-    //       </SimpleGrid>
-    //     </Section> */}
-    //   </Container>
-    // </Layout>
+    <Layout>
+      <Container>
+        <Box display={{ md: 'flex' }}>
+          <Box flexGrow={1}>
+            <Heading as="h2" variant="page-title">
+              Recent Posts
+            </Heading>
+          </Box>
+        </Box>
+        {posts.map(index => {
+          return <Post key={index}></Post>
+        })}
+      </Container>
+    </Layout>
   )
 }
 
