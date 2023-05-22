@@ -35,7 +35,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Craig Olson
             </Heading>
-            <p>Software Engineer and Digital Creator</p>
+            <p>Software Engineer</p>
           </Box>
           <Box
             flexShrink={0}
@@ -84,15 +84,14 @@ const Page = () => {
             game design, and music production/composition. He&apos;s done
             volunteering with organizations such as the Vera Project and KEXP
             and has taken a number of songwriting workshops with some of his
-            favorite artists including Robin Pecknold of Fleet Foxes and Phil
-            Elverum of The Microphones.
+            favorite artists.
           </Paragraph>
           <Paragraph>
             In addition to being a software engineer, Craig writes music in
-            styles ranging from indie rock to ambient-electronic. He&apos;s
-            played piano and guitar for many years and currently plays in a
-            couple of Seattle jazz combos. This year he&apos;s been learning to
-            play the drums and performing at jam sessions and open mic nights.
+            styles ranging from indie rock to electronic. He&apos;s played piano
+            and guitar for many years and currently plays in a couple of Seattle
+            jazz combos. This year he&apos;s been learning to play the drums and
+            performing at jam sessions and open mic nights.
           </Paragraph>
           <Paragraph>
             Looking ahead, Craig aspires to channel his creative energy and
@@ -114,15 +113,19 @@ const Page = () => {
             Bio
           </Heading>
           <SubSection>
-            <SubSectionHeader>2014</SubSectionHeader>
-            Javascript/PHP Intern at{' '}
-            <Link href="https://www.shmoop.com/" target="_blank">
-              Shmoop
-            </Link>
+            <SubSectionHeader>2020 - 2021</SubSectionHeader>
+            iOS Engineer at{' '}
+            <Link href="https://www.lyft.com/" target="_blank">
+              Lyft
+            </Link>{' '}
+            on Driver Platform
           </SubSection>
           <SubSection>
-            <SubSectionHeader>2015</SubSectionHeader>
-            Bachelor of Arts in Computer Science at Northwestern University
+            <SubSectionHeader>2018 - 2019</SubSectionHeader>
+            iOS Engineer at{' '}
+            <Link href="https://www.fooda.com/" target="_blank">
+              Fooda
+            </Link>
           </SubSection>
           <SubSection>
             <SubSectionHeader>2015 - 2018</SubSectionHeader>
@@ -133,19 +136,16 @@ const Page = () => {
             )
           </SubSection>
           <SubSection>
-            <SubSectionHeader>2018 - 2019</SubSectionHeader>
-            iOS Engineer at{' '}
-            <Link href="https://www.fooda.com/" target="_blank">
-              Fooda
-            </Link>
+            <SubSectionHeader>2015</SubSectionHeader>
+            Graduated with Bachelor&apos;s in Computer Science at Northwestern
+            University
           </SubSection>
           <SubSection>
-            <SubSectionHeader>2020 - 2021</SubSectionHeader>
-            iOS Engineer at{' '}
-            <Link href="https://www.lyft.com/" target="_blank">
-              Lyft
-            </Link>{' '}
-            on Driver Platform
+            <SubSectionHeader>2014</SubSectionHeader>
+            Javascript/PHP Intern at{' '}
+            <Link href="https://www.shmoop.com/" target="_blank">
+              Shmoop
+            </Link>
           </SubSection>
         </Section>
         <Section delay={0.3}>
