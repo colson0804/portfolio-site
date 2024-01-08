@@ -8,8 +8,7 @@ import {
   Link,
   List,
   ListItem,
-  useColorModeValue,
-  UnorderedList
+  useColorModeValue
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -65,15 +64,14 @@ const Page = () => {
             developing iOS applications for a wide range of companies, from
             small startups to Fortune 500 giants. While his professional
             experience is in developing mobile applications, Craig likes to
-            tinker with other languages and frameworks, bringing what he learns
-            back to iOS.
+            tinker with other languages and frameworks.
           </Paragraph>
           <Paragraph>
             Most recently he was with the driver platform team at Lyft, where he
             contributed to the development of a unified architecture and focused
             experience for Lyft drivers. Some of his project work involves
             improving mobile performance by decreasing app launch TTI and an
-            redesign of the driver experience. Prior to Lyft, he worked with
+            redesign of the driver application. Prior to Lyft, he worked with
             Chicago-based company Fooda on their iOS applications and with
             Solstice where he consulted for a Fortune 500 banking application.
           </Paragraph>
@@ -82,9 +80,8 @@ const Page = () => {
             growth, creative pursuits, and community engagement. In this time he
             explored many different disciplines including writing, digital art,
             game design, and music production/composition. He&apos;s done
-            volunteering with organizations such as the Vera Project and KEXP
-            and has taken a number of songwriting workshops with some of his
-            favorite artists.
+            volunteering with organizations such as the Vera Project and KEXP in
+            Seattle. Now he&apos;s taken a new role as an iOS engineer at Chewy.
           </Paragraph>
           <Paragraph>
             In addition to being a software engineer, Craig writes music in
@@ -112,6 +109,13 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
+          <SubSection>
+            <SubSectionHeader>2023-present</SubSectionHeader>
+            iOS Engineer at{' '}
+            <Link href="https://www.chewy.com/" target="_blank">
+              Chewy
+            </Link>{' '}
+          </SubSection>
           <SubSection>
             <SubSectionHeader>2020 - 2021</SubSectionHeader>
             iOS Engineer at{' '}
@@ -153,8 +157,8 @@ const Page = () => {
             Technical Skills
           </Heading>
           <SubSection>
-            <SubSectionHeader>Languages:</SubSectionHeader>Swift, Javascript,
-            Python, Objective C, C/C++, C#, Java, SQL, HTML/CSS
+            <SubSectionHeader>Languages:</SubSectionHeader>Swift,
+            Javascript/Typescript, Python, Objective C, C++, C#, SQL, HTML/CSS
           </SubSection>
           <SubSection>
             <SubSectionHeader>iOS Frameworks:</SubSectionHeader>UIKit, SwiftUI,
@@ -168,16 +172,12 @@ const Page = () => {
             <SubSectionHeader>Design:</SubSectionHeader>Photoshop, Blender,
             Figma
           </SubSection>
-          <SubSection>
+          {/* <SubSection>
             <SubSectionHeader>Audio Production:</SubSectionHeader>Ableton Live,
             Logic Pro
-          </SubSection>
-          <SubSection>
-            <SubSectionHeader>Video Editing:</SubSectionHeader>Final Cut Pro,
-            iMovie
-          </SubSection>
+          </SubSection> */}
         </Section>
-        <Section delay={0.4}>
+        {/* <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             Things I&apos;m Learning in 2023
           </Heading>
@@ -191,7 +191,7 @@ const Page = () => {
               Developing Audio Plugins (VSTs) using JUCE and C++
             </ListItem>
           </UnorderedList>
-        </Section>
+        </Section> */}
         <Section delay={0.5}>
           <Heading as="h3" vairant="section-title">
             On the web
