@@ -1,5 +1,5 @@
 # Portfolio website 
-A personal portfolio website using React, Next.js, and ChakraUI. Adapted from [this video tutorial](https://www.youtube.com/watch?v=bSMZgXzC9AA&amp;t=1519s) but customized with my own content.
+A personal portfolio website using React, Next.js, and ChakraUI. Adapted from [this](https://www.youtube.com/watch?v=bSMZgXzC9AA&amp;t=1519s) but customized with my own content.
 
 Future plans involve adding a blog, a gallery, and a projects page to showcase my work. 
 
