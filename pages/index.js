@@ -59,36 +59,17 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Craig is an accomplished mobile and web engineer with a passion for
-            making state of the art applications. He has considerable experience
-            developing iOS applications for a wide range of companies, from
-            small startups to Fortune 500 giants. While his professional
-            experience is in developing mobile applications, Craig likes to
-            tinker with other languages and frameworks.
+            Craig is a mobile and web engineer with a passion for making state
+            of the art applications. He has considerable experience developing
+            iOS applications for a wide range of companies, from small startups
+            to Fortune 500 giants. While his professional experience is in
+            developing mobile applications, Craig likes to tinker with other
+            languages and frameworks.
           </Paragraph>
           <Paragraph>
-            Most recently he was with the driver platform team at Lyft, where he
-            contributed to the development of a unified architecture and focused
-            experience for Lyft drivers. Some of his project work involves
-            improving mobile performance by decreasing app launch TTI and an
-            redesign of the driver application. Prior to Lyft, he worked with
-            Chicago-based company Fooda on their iOS applications and with
-            Solstice where he consulted for a Fortune 500 banking application.
-          </Paragraph>
-          <Paragraph>
-            Following his role at Lyft, Craig took time off to focus on personal
-            growth, creative pursuits, and community engagement. In this time he
-            explored many different disciplines including writing, digital art,
-            game design, and music production/composition. He&apos;s done
-            volunteering with organizations such as the Vera Project and KEXP in
-            Seattle. Now he&apos;s taken a new role as an iOS engineer at Chewy.
-          </Paragraph>
-          <Paragraph>
-            In addition to being a software engineer, Craig writes music in
-            styles ranging from indie rock to electronic. He&apos;s played piano
-            and guitar for many years and currently plays in a couple of Seattle
-            jazz combos. This year he&apos;s been learning to play the drums and
-            performing at jam sessions and open mic nights.
+            In addition to being a software engineer, Craig composes and
+            performs music. Around Seattle, he often plays with Jazz Night
+            School, performing on piano, guitar, bass, and drums.
           </Paragraph>
           <Paragraph>
             Looking ahead, Craig aspires to channel his creative energy and
@@ -110,8 +91,15 @@ const Page = () => {
             Bio
           </Heading>
           <SubSection>
-            <SubSectionHeader>2023-present</SubSectionHeader>
-            iOS Engineer at{' '}
+            <SubSectionHeader>2024 - present</SubSectionHeader>
+            Senior iOS Engineer at{' '}
+            <Link href="https://www.teamsnap.com/" target="_blank">
+              TeamSnap
+            </Link>{' '}
+          </SubSection>
+          <SubSection>
+            <SubSectionHeader>2023 - 2024</SubSectionHeader>
+            iOS Engineer (contract) at{' '}
             <Link href="https://www.chewy.com/" target="_blank">
               Chewy
             </Link>{' '}
